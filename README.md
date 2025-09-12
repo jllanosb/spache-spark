@@ -23,3 +23,23 @@ Para garantizar que las dependencias de Ubuntu estén actualizadas, abra una ven
 ```markdown
 sudo apt update
 ```
+
+## Instalar dependencias de Spark (Git, Java, Scala)
+
+Antes de descargar y configurar Spark, instale las dependencias necesarias. Esto incluye los siguientes paquetes:
+
+- JDK (Kit de desarrollo de Java)
+- Escala
+- Git
+
+Introduzca el siguiente comando para instalar los tres paquetes:
+
+```markdown
+sudo apt install default-jdk scala git -y
+```
+
+Utilice el siguiente comando para verificar las dependencias instaladas:
+
+```bash
+java -version; javac -version; scala -version; git --version
+```
