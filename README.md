@@ -14,3 +14,10 @@ En este tutorial, aprenderá cómo instalar y configurar Spark en Ubuntu.
 
 # Instalación de Spark en Ubuntu
 
+Los ejemplos de este tutorial se presentan utilizando Ubuntu 24.04 y Spark 4.0.1
+
+## Lista de paquetes del sistema de actualización
+
+Para garantizar que las dependencias de Ubuntu estén actualizadas, abra una ventana de terminal y actualice la lista de paquetes del repositorio en su sistema:
+
+**sudo apt update**
