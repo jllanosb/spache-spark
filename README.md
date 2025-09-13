@@ -222,15 +222,15 @@ Para salir del shell de PySpark, escriba *quit()* y presione *Enter*.
 
 En la siguiente tabla se enumeran los comandos básicos para iniciar y detener el servidor maestro y los trabajadores Apache Spark (controlador) en una configuración de una sola máquina.
 
-```bash
-| Dominio                       | Descripción                                   |
-|-------------------------------|-------------------------------------------------------                           |
-| start-master.sh               | Inicie la instancia del servidor del controlador (maestro) en la máquina actual. |
-| stop-master.sh                | Detener la instancia del servidor del controlador (maestro) en la máquina actual. |
+```markdown
+| Dominio                       | Descripción                                                                           |
+|-------------------------------|---------------------------------------------------------------------------------------|
+| start-master.sh               | Inicie la instancia del servidor del controlador (maestro) en la máquina actual.      |
+| stop-master.sh                | Detener la instancia del servidor del controlador (maestro) en la máquina actual.     |
 | start-worker.sh spark://master_server:port | Inicie un proceso de trabajo y conéctelo al servidor maestro (use la IP o el nombre de host del maestro). |
-| stop-worker.sh                | Detener un proceso de trabajo en ejecución. |
-| start-all.sh                  | Inicie las instancias del controlador (maestro) y del trabajador. |
-| stop-all.sh                   | Detener todas las instancias del controlador (maestro) y del trabajador. |
+| stop-worker.sh                | Detener un proceso de trabajo en ejecución.                                           |
+| start-all.sh                  | Inicie las instancias del controlador (maestro) y del trabajador.                     |
+| stop-all.sh                   | Detener todas las instancias del controlador (maestro) y del trabajador.              |
 ```
 
 Los comandos *start-all.sh* and *stop-all.sh* funcionan en configuraciones de un solo nodo, pero en clústeres multinodo, debe configurar el *inicio de sesión SSH sin contraseña* en cada nodo. Esto permite que el servidor maestro controle los nodos de trabajo de forma remota.
