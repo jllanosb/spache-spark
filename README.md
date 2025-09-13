@@ -236,3 +236,5 @@ En la siguiente tabla se enumeran los comandos básicos para iniciar y detener e
 Los comandos *start-all.sh* and *stop-all.sh* funcionan en configuraciones de un solo nodo, pero en clústeres multinodo, debe configurar el *inicio de sesión SSH sin contraseña* en cada nodo. Esto permite que el servidor maestro controle los nodos de trabajo de forma remota.
 
 ##### Nota: intente ejecutar *PySpark en Jupyter Notebook* para obtener un procesamiento de datos más potente y una experiencia interactiva.
+
+## Esta configuración le permite realizar pruebas básicas antes de pasar a tareas avanzadas, como configurar un clúster Spark de varios nodos o trabajar con Spark DataFrames.
